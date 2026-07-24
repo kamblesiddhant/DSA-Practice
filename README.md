@@ -73,7 +73,7 @@ DSA-Practice/
 # 📖 Topics Covered
 
 - ✅ Java Basics
-- ✅ Pattern Problems
+- ✅ Adcanced Pattern Problems
 
 ---
 
