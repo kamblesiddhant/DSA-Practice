@@ -28,8 +28,19 @@ public class AdvancedPattern {
         }
     }
 
+    public static void inverted_half_pattern_number(int range){
+        for(int i=1; i<=range; i++){
+            for(int j=1; j<=(range-i);j++){
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) {
 //        hollowRectangle(5);
-        interted_roteted_half_pyramid(6);
+//        interted_roteted_half_pyramid(6);
+        inverted_half_pattern_number(5);
+
     }
 }
