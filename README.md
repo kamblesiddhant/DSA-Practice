@@ -74,25 +74,6 @@ DSA-Practice/
 
 - ✅ Java Basics
 - ✅ Pattern Problems
-- ✅ Arrays
-- ✅ Sorting Algorithms
-- ✅ Strings
-- ✅ Bit Manipulation
-- ✅ Recursion
-- ✅ Backtracking
-- ✅ ArrayList
-- ✅ Linked List
-- ✅ Stack
-- ✅ Queue
-- ✅ Binary Tree
-- ✅ Binary Search Tree
-- ✅ Heap
-- ✅ Hashing
-- ✅ Trie
-- ✅ Graph
-- ✅ Greedy Algorithms
-- ✅ Dynamic Programming
-- ✅ Segment Tree
 
 ---
 
