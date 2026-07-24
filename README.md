@@ -91,8 +91,6 @@ DSA-Practice/
 
 | Topic | Status |
 |--------|--------|
-| Java Basics | ⏳ |
-| Patterns | ⏳ |
 | Arrays | ⏳ |
 | Sorting | ⏳ |
 | Strings | ⏳ |
