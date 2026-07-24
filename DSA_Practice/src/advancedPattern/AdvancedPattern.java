@@ -37,10 +37,21 @@ public class AdvancedPattern {
         }
     }
 
+    public static void floydTrangle(int n){
+        int num = 1;
+        for(int i =1; i<=n;i++){
+            for(int j=1; j<=i;j++){
+                System.out.print(num+" ");
+                num++;
+            }
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) {
 //        hollowRectangle(5);
 //        interted_roteted_half_pyramid(6);
-        inverted_half_pattern_number(5);
-
+//        inverted_half_pattern_number(5);
+        floydTrangle(7);
     }
 }
