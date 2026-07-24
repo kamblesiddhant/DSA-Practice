@@ -105,6 +105,22 @@ public class AdvancedPattern {
         }
     }
 
+    public static void hellowRhombis(int n){
+        for(int i=1; i<=n;i++){
+            for (int j=1; j<=n-i;j++){
+                System.out.print(" ");
+            }
+            for(int j=1; j<=n; j++){
+                if(j==1||i==1||j==n||i==n){
+                    System.out.print("*");
+                }else{
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) {
 //        hollowRectangle(5);
 //        interted_roteted_half_pyramid(6);
@@ -112,6 +128,7 @@ public class AdvancedPattern {
 //        floydTrangle(7);
 //        trangleBin(5);
 //        butterflyPattern(5);
-        solidRhombus(5);
+//        solidRhombus(5);
+        hellowRhombis(5);
     }
 }
