@@ -22,7 +22,6 @@ public class BinarySearch {
     }
 
     public static void main(String[] args) {
-
         int[] num = {2,3,4,5,7,9};
         int ans = binarySearch(num, 9);
         System.out.println("the key is in "+ans+" index");
