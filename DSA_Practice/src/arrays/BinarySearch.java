@@ -8,7 +8,6 @@ public class BinarySearch {
         int end = (num.length-1);
 
         for(int i=0; i<num.length; i++){
-
             mid = (start+end)/2;
            if (num[mid] == key){
                return mid;
