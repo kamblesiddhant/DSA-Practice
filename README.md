@@ -74,6 +74,7 @@ DSA-Practice/
 
 - ✅ Java Basics
 - ✅ Adcanced Pattern Problems
+- ✅ Arrays
 
 ---
 
@@ -91,7 +92,6 @@ DSA-Practice/
 
 | Topic | Status |
 |--------|--------|
-| Arrays | ⏳ |
 | Sorting | ⏳ |
 | Strings | ⏳ |
 | Recursion | ⏳ |
