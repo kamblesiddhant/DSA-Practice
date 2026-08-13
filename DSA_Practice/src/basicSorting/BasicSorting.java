@@ -29,6 +29,18 @@ public class BasicSorting {
         }
     }
 
+    public static void insertionSort(int[] arr){
+        for (int i = 1; i<arr.length; i++){
+            int curr = i;
+            int prv = curr-1;
+            while (prv >=0 && arr[prv] > arr[curr]){
+                arr[prv+1] = arr[prv];
+                prv--;
+            }
+            arr[prv-1] = arr[curr];
+        }
+    }
+
     public static void printArr(int arr[]){
         for (int i=0; i<arr.length; i++){
             System.out.print(arr[i] + " ");
