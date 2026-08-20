@@ -75,6 +75,7 @@ DSA-Practice/
 - ✅ Java Basics
 - ✅ Adcanced Pattern Problems
 - ✅ Arrays
+- ✅ Basic Shorting
 
 ---
 
