@@ -13,9 +13,30 @@ public class RecursionBasics {
         printDec(range-1);
     }
 
-    public static void main(String[] args){
-        int range = 10;
-        printDec(range);
+    public static void printIncrising(int range){
+        if (range == 1){
+            System.out.print(range+" ");
+            return;
+        }
+        printIncrising(range-1);
+        System.out.print(range +" ");
+    }
 
+    public static int fact(int n){
+
+        if (n == 0){
+            return 1;
+        }
+        int fnm1 = fact(n-1);
+        int fn = n*fact(n-1);
+        return fn;
+    }
+
+    public static void main(String[] args){
+        int range = 5;
+//        printDec(range);
+//        printIncrising(range);
+
+        System.out.print(fact(range));
     }
 }
